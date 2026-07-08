@@ -19,7 +19,7 @@ This repo contains the **hybrid orchestrator only**. Upstream skills remain sepa
 ### Cursor / Claude Code (copy)
 
 ```bash
-git clone https://github.com/clarke-life180/design-hybrid.git
+git clone git@github-work:LIFE-Dev-Team/design-hybrid.git
 cp -r design-hybrid ~/.claude/skills/design-hybrid
 # or for Cursor:
 cp -r design-hybrid ~/.cursor/skills/design-hybrid
@@ -28,7 +28,7 @@ cp -r design-hybrid ~/.cursor/skills/design-hybrid
 ### npx skills (if published to skills registry)
 
 ```bash
-npx skills add clarke-life180/design-hybrid --skill design-hybrid-frontend
+npx skills add LIFE-Dev-Team/design-hybrid --skill design-hybrid-frontend
 ```
 
 ## Usage
