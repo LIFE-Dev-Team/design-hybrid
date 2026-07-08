@@ -1,5 +1,5 @@
 {
-  "hybridVersion": "1.0.0",
+  "hybridVersion": "1.1.0",
   "hybridSkill": "design-hybrid",
   "installName": "design-hybrid-frontend",
   "sources": [
@@ -118,7 +118,7 @@
       "id": "websites-slop-gate",
       "label": "Websites Slop Gate (Obsidian vault)",
       "localMirror": "../websites-slop-gate/SKILL.md",
-      "vaultRoot": null
+      "vaultRoot": "C:/Users/clark/AI Agents/AI Agents/Knowledge/Websites"
     },
     {
       "id": "websites-quality-gate",

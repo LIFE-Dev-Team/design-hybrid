@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "design-hybrid-frontend": {
+      "source": "clarke-life180/design-hybrid",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "a0d378b23ad56504c1592de6cb0bdada470f1c2ab8011f3b243fd14c6e50df99"
+    }
+  }
+}
