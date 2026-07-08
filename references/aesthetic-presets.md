@@ -1,4 +1,6 @@
-# Aesthetic Presets (pick one per project)
+# Aesthetic Presets (Taste Skill variants)
+
+These are **dial/palette overlays** on top of `taste-skill-core.md`. They never replace Taste anti-slop law.
 
 Override default dials when the brief or brand clearly fits a preset.
 
