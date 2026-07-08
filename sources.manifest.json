@@ -1,0 +1,130 @@
+{
+  "hybridVersion": "1.0.0",
+  "hybridSkill": "design-hybrid",
+  "installName": "design-hybrid-frontend",
+  "sources": [
+    {
+      "id": "taste-skill-v2",
+      "label": "Taste Skill (default v2)",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/taste-skill/SKILL.md",
+      "localMirror": "../taste-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill design-taste-frontend"
+    },
+    {
+      "id": "taste-skill-v1",
+      "label": "Taste Skill v1 (pinned)",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/taste-skill-v1/SKILL.md",
+      "localMirror": null,
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill design-taste-frontend-v1"
+    },
+    {
+      "id": "gpt-taste",
+      "label": "GPT Taste (GSAP / AIDA)",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/gpt-tasteskill/SKILL.md",
+      "localMirror": "../gpt-tasteskill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill gpt-taste"
+    },
+    {
+      "id": "soft-skill",
+      "label": "Soft / Agency UI",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/soft-skill/SKILL.md",
+      "localMirror": "../soft-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill high-end-visual-design"
+    },
+    {
+      "id": "redesign-skill",
+      "label": "Redesign / Audit",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/redesign-skill/SKILL.md",
+      "localMirror": "../redesign-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill redesign-existing-projects"
+    },
+    {
+      "id": "minimalist-skill",
+      "label": "Minimalist Editorial",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/minimalist-skill/SKILL.md",
+      "localMirror": "../minimalist-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill minimalist-ui"
+    },
+    {
+      "id": "brutalist-skill",
+      "label": "Industrial Brutalist",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/brutalist-skill/SKILL.md",
+      "localMirror": "../brutalist-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill industrial-brutalist-ui"
+    },
+    {
+      "id": "stitch-skill",
+      "label": "Google Stitch",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/stitch-skill/SKILL.md",
+      "localMirror": "../stitch-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill stitch-design-taste"
+    },
+    {
+      "id": "output-skill",
+      "label": "Full Output Enforcement",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "skills/output-skill/SKILL.md",
+      "localMirror": "../output-skill/SKILL.md",
+      "install": "npx skills add https://github.com/Leonxlnx/taste-skill --skill full-output-enforcement"
+    },
+    {
+      "id": "impeccable",
+      "label": "Impeccable (product workflow)",
+      "repo": "pbakaus/impeccable",
+      "branch": "main",
+      "remotePath": ".claude/skills/impeccable/SKILL.md",
+      "localMirror": "../impeccable/SKILL.md",
+      "install": "npx skills add pbakaus/impeccable"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "label": "UI/UX Pro Max",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "branch": "main",
+      "remotePath": "src/ui-ux-pro-max/templates/base/skill-content.md",
+      "localMirror": "../../.cursor/skills/ui-ux-pro-max/SKILL.md",
+      "altLocalMirror": "../ui-ux-pro-max/SKILL.md",
+      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "id": "taste-changelog",
+      "label": "Taste Skill Changelog",
+      "repo": "Leonxlnx/taste-skill",
+      "branch": "main",
+      "remotePath": "CHANGELOG.md",
+      "localMirror": null,
+      "install": null
+    }
+  ],
+  "localOnly": [
+    {
+      "id": "websites-slop-gate",
+      "label": "Websites Slop Gate (Obsidian vault)",
+      "localMirror": "../websites-slop-gate/SKILL.md",
+      "vaultRoot": null
+    },
+    {
+      "id": "websites-quality-gate",
+      "label": "Websites Quality Gate (Lighthouse/axe)",
+      "localMirror": "../websites-quality-gate/SKILL.md",
+      "install": null
+    }
+  ]
+}
